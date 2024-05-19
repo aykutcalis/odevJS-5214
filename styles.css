@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+ 
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav-pc {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+ 
+  
+  .topnav-pc a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav-pc a.icon {
+    background: black;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav-pc a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .hidden {
+display: none;
+  }
+  .color-blue{
+    background-color:blue;
+  }
+  
+  /* @media screen and (max-width:500px) {
+    .topnav{
+        display: none;
+    }
+  }  */
+  /* @media screen and (min-width:500px) {
+    .topnav {
+        display: none;
+        
+    }
+  }  */
+/* burada mediascreen ile responsive tasarım sağlıyoruz ,dilediğimiz css'leri ekleyebiliriz.*/
